@@ -1,0 +1,13 @@
+<template>
+	<lightning-card title="Library Items Borrowing History" icon-name="custom:custom57">
+		<div class="slds-m-around_medium">
+			<div style="height: 300px;">
+					<lightning-datatable
+									key-field="Id"
+									data={itemsHistory.data}
+									columns={columns}>
+					</lightning-datatable>
+			</div>
+		</div>
+	</lightning-card>
+</template>
